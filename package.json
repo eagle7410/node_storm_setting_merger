@@ -1,0 +1,33 @@
+{
+  "name": "node_storm_setting_merger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./scripts/install",
+    "merge": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eagle7410/node_storm_setting_merger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eagle7410/node_storm_setting_merger/issues"
+  },
+  "homepage": "https://github.com/eagle7410/node_storm_setting_merger#readme",
+  "dependencies": {
+    "console-color": "https://github.com/eagle7410/console-color",
+    "domino": "2.0.2",
+    "fsp-eagle": "1.0.1",
+    "jszip": "3.1.5",
+    "jszipper": "1.0.1",
+    "xml2json": "^0.11.2",
+    "xmldom": "0.1.27"
+  },
+  "author": "Igor Stcherbina <verycooleagle@gmail.com> (http://github.com/eagle7410)",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}

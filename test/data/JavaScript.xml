@@ -1,0 +1,135 @@
+<templateSet group="JavaScript">
+  <template name="cns" value="console.log('$END$');" description="console.log" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="isAr" value="Array.isArray($END$)" description="isArray" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="asnP" value="async.parallel({ labelFun : function (cb) {&#10;&#9;cb(e, result);&#10;}, labelFun : function (cb) {&#10;&#9;cb(e, result);&#10;}}, function (e, result) {&#10;&#9;cb(e, result);&#10;});" description="Async paraller" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fnC" value="function $END$ (req, res) {&#10;&#10;}" description="function in controller" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fnE" value="module.exports.$END$ = function (params) {&#10;&#9;&#10;};" description="Function for export" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="iff" value="if ($END$) {&#10;&#10;} else {&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ifs" value="if ($END$) {}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="exp" value="module.exports = {&#10;&#9;$END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cnse" value="console.error($END$);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tcns" value="// TODO: clear&#10;console.log('$END$');" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="frE" value="a" description="arr.forEach()" toReformat="false" toShortenFQNames="true" />
+  <template name="afr" value=".forEach(function (el) {&#10;&#9;$END$&#10;});" description="Array for each" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tof" value="if (typeof $END$ === '') {}" description="if type of" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ks" value="Object.keys($END$)" description="Object keys" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ex" value="module.exports = $END$" description="exports" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="asnW" value="async.waterfall([&#10;&#9;function(cb) {&#10;&#9;&#9;cb(e, dt);&#10;&#9;},&#10;&#9;function(dt, cb) {&#10;&#9;&#9;cb(e, dt);&#10;&#9;}&#10;&#9;], function (e, r) {&#10;&#9;// result now equals 'done'&#10;});" description="async waterfall" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tb" value="// TODO: Back" description="TODO BACK" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="asnES" value="async.eachSeries(arr, function(el, next){&#10;&#9;$END$&#10;}, function(e) {&#10;&#9;// the end&#10;});" description="async each series" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fr" value="for (var i = 0, len = $END$; i&lt;len; ++i) {}" description="Classic for" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="us" value="&quot;use strict&quot;;" description="hard  mode" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="th" value="var that = this;" description="that" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pr" value="new Promise((ok,bad)=&gt; {$END$});" description="new Promise" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="requ" value="const $END$ = require('$ADD$');" description="require" toReformat="false" toShortenFQNames="true">
+    <variable name="ADD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tit" value="it('$END$', async () =&gt; {});" description="test it" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tpr" value="new Promise((testOk, testBad) =&gt; {$end$});" description="test promise" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="sap" value="static async $tab1$($tab2$) {$tab3$}" description="static async property" toReformat="false" toShortenFQNames="true">
+    <variable name="tab1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="tab2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="tab3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>
