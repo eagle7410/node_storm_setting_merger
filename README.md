@@ -1,5 +1,5 @@
 # node_storm_setting_merger
-Merge setting for webstorm
+Merge setting live templates 'JavaScript.xml', 'user.xml', 'Vue.xml', 'html_xml.xml' for webstorm.
 ## Install
 ```bash
 npm i node_storm_setting_merger
